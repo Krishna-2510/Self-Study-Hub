@@ -1,0 +1,406 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Self Study Hub</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="text-gray-400 bg-gray-900 body-font sticky top-0 bg-gray-800 text-white z-50">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="w-10 h-10 text-white p-2 bg-green-500 rounded-full">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path
+                            d="M4 19V6.2C4 5.0799 4 4.51984 4.21799 4.09202C4.40973 3.71569 4.71569 3.40973 5.09202 3.21799C5.51984 3 6.0799 3 7.2 3H16.8C17.9201 3 18.4802 3 18.908 3.21799C19.2843 3.40973 19.5903 3.71569 19.782 4.09202C20 4.51984 20 5.0799 20 6.2V17H6C4.89543 17 4 17.8954 4 19ZM4 19C4 20.1046 4.89543 21 6 21H20M9 7H15M9 11H15M19 17V21"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        </path>
+                    </g>
+                </svg>
+                <span class="ml-3 text-xl">Self Study Hub</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a href="#home-section" class="mr-5 hover:text-green-500">Home</a>
+                <a href="#pricing-section" class="mr-5 hover:text-green-500">Prices</a>
+                <a href="#facility-section" class="mr-5 hover:text-green-500">Facilities</a>
+                <a href="#contact-section" class="mr-5 hover:text-green-500">Contact us</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home-section" class="text-gray-400 bg-gray-900 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+                    Study Smarter, Achieve More
+                    <br class="lg:inline-block">Welcome to -
+                    <span class="text-green-500">Self Study Hub</span>
+                </h1>
+                <p class="mb-8 leading-relaxed">Our study center is equipped with all the modern amenities you need,
+                    including free Wi-Fi and air-conditioned rooms, ensuring a comfortable and effective learning
+                    experience.</p>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero"
+                    src="https://cdn.hillsroad.ac.uk/images/Student-Life/Support-Guidance/Study-Skills-SEND/Study-Centre-gallery/Study-Centre-students-working-in-silent-study.jpg">
+            </div>
+        </div>
+    </section>
+    <hr />
+    <section id="pricing-section" class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <div class="flex justify-center items-center space-x-2">
+                    <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">Our</h1>
+                    <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-green-500">Pricing</h1>
+                </div>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">We offer the most competitive rates in the city,
+                    ensuring high-quality education is accessible for every student. Our pricing delivers exceptional
+                    value, making us the best choice for cost-effective learning.</p>
+            </div>
+            <div
+                class="lg:w-2/3 w-full mx-auto overflow-auto transform transition-transform duration-300 hover:scale-105">
+                <h2 class="text-xl font-semibold mb-4">Regular Plans</h2>
+                <table class="table-auto w-full text-left whitespace-no-wrap">
+                    <thead>
+                        <tr>
+                            <th
+                                class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800 rounded-tl rounded-bl">
+                                Plan</th>
+                            <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">
+                                Timings</th>
+                            <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">
+                                Monthly</th>
+                            <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">
+                                Quaterly</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="px-4 py-3">Morning</td>
+                            <td class="px-4 py-3">6am - 11am</td>
+                            <td class="px-4 py-3 text-lg text-white">&#8377 249</td>
+                            <td class="px-4 py-3 text-lg text-white">&#8377 699</td>
+                        </tr>
+                        <tr>
+                            <td class="border-t-2 border-gray-800 px-4 py-3">Noon</td>
+                            <td class="border-t-2 border-gray-800 px-4 py-3">11am - 4pm</td>
+                            <td class="border-t-2 border-gray-800 px-4 py-3 text-lg text-white">&#8377 349</td>
+                            <td class="border-t-2 border-gray-800 px-4 py-3 text-lg text-white">&#8377 999</td>
+                        </tr>
+                        <tr>
+                            <td class="border-t-2 border-b-2 border-gray-800 px-4 py-3">Evening</td>
+                            <td class="border-t-2 border-b-2 border-gray-800 px-4 py-3">4pm - 9pm</td>
+                            <td class="border-t-2 border-b-2 border-gray-800 px-4 py-3 text-lg text-white">&#8377 349
+                            </td>
+                            <td class="border-t-2 border-b-2 border-gray-800 px-4 py-3 text-lg text-white">&#8377 999
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br />
+                <h2 class="text-xl font-semibold mb-4">Special Batch Plans</h2>
+                <table class="table-auto w-full text-left whitespace-no-wrap">
+                    <thead>
+                        <tr>
+                            <th
+                                class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800 rounded-tl rounded-bl">
+                                Plan</th>
+                            <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">
+                                Timings</th>
+                            <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">
+                                Monthly</th>
+                            <th class="px-4 py-3 title-font tracking-wider font-medium text-white text-sm bg-gray-800">
+                                Quaterly</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="px-4 py-3">6 Hours </td>
+                            <td class="px-4 py-3">10am - 4pm</td>
+                            <td class="px-4 py-3 text-lg text-white">&#8377 449</td>
+                            <td class="px-4 py-3 text-lg text-white">&#8377 1299</td>
+                        </tr>
+                        <tr>
+                            <td class="border-t-2 border-gray-800 px-4 py-3">8 Hours</td>
+                            <td class="border-t-2 border-gray-800 px-4 py-3">8am - 4pm</td>
+                            <td class="border-t-2 border-gray-800 px-4 py-3 text-lg text-white">&#8377 549</td>
+                            <td class="border-t-2 border-gray-800 px-4 py-3 text-lg text-white">&#8377 1599</td>
+                        </tr>
+                        <tr>
+                            <td class="border-t-2 border-gray-800 px-4 py-3">10 Hours</td>
+                            <td class="border-t-2 border-gray-800 px-4 py-3">6am - 4pm</td>
+                            <td class="border-t-2 border-gray-800 px-4 py-3 text-lg text-white">&#8377 649</td>
+                            <td class="border-t-2 border-gray-800 px-4 py-3 text-lg text-white">&#8377 1899</td>
+                        </tr>
+                        <tr>
+                            <td class="border-t-2 border-gray-800 px-4 py-3">12 Hours</td>
+                            <td class="border-t-2 border-gray-800 px-4 py-3">6am - 6pm</td>
+                            <td class="border-t-2 border-gray-800 px-4 py-3 text-lg text-white">&#8377 749</td>
+                            <td class="border-t-2 border-gray-800 px-4 py-3 text-lg text-white">&#8377 2099</td>
+                        </tr>
+                        <tr>
+                            <td class="border-t-2 border-b-2 border-gray-800 px-4 py-3">15 Hours</td>
+                            <td class="border-t-2 border-b-2 border-gray-800 px-4 py-3">6am - 9pm</td>
+                            <td class="border-t-2 border-b-2 border-gray-800 px-4 py-3 text-lg text-white">&#8377 849
+                            </td>
+                            <td class="border-t-2 border-b-2 border-gray-800 px-4 py-3 text-lg text-white">&#8377 2399
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    </section>
+    <hr />
+    <section id="facility-section" class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex justify-center items-center space-x-2 mb-12">
+                <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">Our</h1>
+                <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-green-500">Facilities</h1>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/3 lg:mb-0 mb-6 p-4 transform transition-transform duration-300 hover:scale-105">
+                    <h1 class="text-2xl font-medium title-font text-white mb-12 text-center">Air-Conditioned Comfort
+                    </h1>
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
+                            src="https://e7.pngegg.com/pngimages/483/77/png-clipart-air-conditioning-drawing-coloring-book-aire-angle-text.png">
+                        <p class="leading-relaxed">Our fully air-conditioned classrooms ensure a comfortable learning
+                            environment year-round. With perfect temperatures maintained, you can focus on your studies
+                            without distraction, making your learning experience both enjoyable and productive.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
+                        <!-- <h2 class="text-white font-medium title-font tracking-wider text-sm">Stay Cool, Learn Better
+                        </h2> -->
+                        <!-- <p class="text-gray-500">Air-Conditioned Comfort</p> -->
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 mb-6 p-4 transform transition-transform duration-300 hover:scale-105">
+                    <h1 class="text-2xl font-medium title-font text-white mb-12 text-center">Free Wi-Fi</h1>
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
+                            src="https://static.vecteezy.com/system/resources/thumbnails/002/261/140/small/wifi-icon-wireless-internet-isolate-on-transparent-background-illustration-free-vector.jpg">
+                        <p class="leading-relaxed">Our free high-speed Wi-Fi keeps you connected to all the online
+                            resources you need. Whether you're researching, collaborating, or streaming, enjoy seamless
+                            access that enhances your learning experience and keeps you productive.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
+                        <!-- <h2 class="text-white font-medium title-font tracking-wider text-sm">ALPER KAMU</h2>
+                        <p class="text-gray-500">UI Develeoper</p> -->
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 p-4 transform transition-transform duration-300 hover:scale-105">
+                    <h1 class="text-2xl font-medium title-font text-white mb-12 text-center">Ample Space</h1>
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpqX4gUSzZwg4N3kclNO5IPcDg88EU0jepQr7vzNTUnuW6o6ZF6aPQz5BMKAVXeBLuFm8&usqp=CAU">
+                        <p class="leading-relaxed">Our spacious classrooms and study areas provide ample room for all
+                            your academic needs. Enjoy a comfortable environment where you can work, collaborate, and
+                            focus without feeling cramped, enhancing your overall learning experience.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
+                        <!-- <h2 class="text-white font-medium title-font tracking-wider text-sm">HENRY LETHAM</h2>
+                        <p class="text-gray-500">CTO</p> -->
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 p-4 transform transition-transform duration-300 hover:scale-105">
+                    <h1 class="text-2xl font-medium title-font text-white mb-12 text-center">Clean RO drinking water
+                    </h1>
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4c0vmYcJrlOkvedFpn72LfQzTMX70xoiX0w&s">
+                        <p class="leading-relaxed">We provide clean RO drinking water throughout our facility to keep
+                            you hydrated and refreshed. Our commitment to quality ensures that you have access to safe,
+                            pure water while you study, enhancing your comfort and well-being.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
+                        <!-- <h2 class="text-white font-medium title-font tracking-wider text-sm">HENRY LETHAM</h2>
+                        <p class="text-gray-500">CTO</p> -->
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 p-4 transform transition-transform duration-300 hover:scale-105">
+                    <h1 class="text-2xl font-medium title-font text-white mb-12 text-center">Boys' & Girls' Washrooms
+                    </h1>
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
+                            src="https://media.istockphoto.com/id/1423250805/vector/toilet-sign-icon-vector-design-illustration.jpg?s=612x612&w=0&k=20&c=KJBng8G4z5v_EFqhGIYUWhZWnQfKMc8vVCt6aFzF9d0=">
+                        <p class="leading-relaxed">We provide separate washrooms for boys and girls to ensure privacy
+                            and comfort. Each facility is maintained to high standards of cleanliness, offering a
+                            convenient and respectful environment for all our students. Enjoy a well-organized space
+                            tailored to your needs.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
+                        <!-- <h2 class="text-white font-medium title-font tracking-wider text-sm">HENRY LETHAM</h2>
+                        <p class="text-gray-500">CTO</p> -->
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 p-4 transform transition-transform duration-300 hover:scale-105">
+                    <h1 class="text-2xl font-medium title-font text-white mb-12 text-center">Your Study Companion App
+                    </h1>
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
+                            src="https://media.istockphoto.com/id/1177118488/vector/touch-smartphone-icon-with-hand-for-your-projects.jpg?s=612x612&w=0&k=20&c=txLl828viaMRnrxFZJf-8cj9WyEqRKU2HyEJxOHBucg=">
+                        <p class="leading-relaxed">Our Study Companion App streamlines your experience at the center
+                            with convenient features for managing schedules, accessing resources, and staying connected.
+                            Enjoy seamless integration that enhances your study experience and keeps you organized, all
+                            from your mobile device</p>
+                        <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
+                        <!-- <h2 class="text-white font-medium title-font tracking-wider text-sm">HENRY LETHAM</h2>
+                        <p class="text-gray-500">CTO</p> -->
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 p-4 transform transition-transform duration-300 hover:scale-105">
+                    <h1 class="text-2xl font-medium title-font text-white mb-12 text-center">Discussion Rooms</h1>
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
+                            src="https://thumbs.dreamstime.com/b/icon-meeting-conference-meeting-147972111.jpg">
+                        <p class="leading-relaxed">Our discussion rooms are designed to facilitate group study and
+                            collaborative learning. These spaces offer a quiet, focused environment where you can work
+                            with peers, share ideas, and engage in productive discussions to enhance your academic
+                            experience.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
+                        <h2 class="text-white font-medium title-font tracking-wider text-sm">Coming Soon...</h2>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 p-4 transform transition-transform duration-300 hover:scale-105">
+                    <h1 class="text-2xl font-medium title-font text-white mb-12 text-center">Digital Rooms</h1>
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
+                            src="https://img.freepik.com/premium-vector/vector-computer-laptop-repair-logo-template-icon-illustration-design_757387-1291.jpg">
+                        <p class="leading-relaxed">Our digital room is equipped with the latest technology to support
+                            interactive learning and presentations. This space provides a high-tech environment where
+                            you can access digital resources, conduct research, and engage in innovative study methods
+                            to enhance your learning.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
+                        <h2 class="text-white font-medium title-font tracking-wider text-sm">Coming Soon...</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr />
+    <section id="contact-section" class="text-gray-400 bg-gray-900 body-font relative">
+        <div class="absolute inset-0 bg-gray-900">
+            <iframe title="map" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0"
+                scrolling="no"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.6197275593913!2d77.07589257437313!3d28.49099669049598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1915ebd07249%3A0xd9938313b7f4d36d!2sMM%20Tower!5e0!3m2!1sen!2sin!4v1723276021829!5m2!1sen!2sin"></iframe>
+        </div>
+        <div class="container px-5 py-24 mx-auto flex">
+            <div
+                class="lg:w-1/3 md:w-1/2 bg-gray-900 shadow-md rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10">
+                <div class="flex justify-center items-center space-x-2">
+                    <h2 class="text-white text-lg mb-1 font-medium title-font">Contact</h2>
+                    <h2 class="text-green-500 text-lg mb-1 font-medium title-font">Us</h2>
+                </div>
+                <p class="leading-relaxed mb-5">Have questions or need assistance? Reach out to us via phone or email,
+                    or visit our address - We are here to help!</p>
+                <div class="relative mb-4">
+                    <h2 class="title-font font-semibold text-white tracking-widest text-xs">ADDRESS</h2>
+                    <p class="mt-1">SDM Colony, Karwi, Chitrakoot, Uttar Pradesh</p>
+                </div>
+                <div class="relative mb-4">
+                    <h2 class="title-font font-semibold text-white tracking-widest text-xs">EMAIL</h2>
+                    <a class="text-green-500 leading-relaxed">example@email.com</a>
+                </div>
+                <div class="relative mb-4">
+                    <h2 class="title-font font-semibold text-white tracking-widest text-xs mt-4">PHONE</h2>
+                    <p class="leading-relaxed">+91-75087 76242</p>
+                    <!-- <p class="leading-relaxed">+91-75087 76242</p> -->
+                </div>
+                <span class="inline-block h-1 w-100 rounded bg-green-500 mt-6 mb-4"></span>
+            </div>
+        </div>
+    </section>
+    <hr />
+    <section class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+            <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+                <div class="w-full sm:p-4 px-4 mb-6">
+                    <div class="flex justify-center items-center space-x-2">
+                        <h1 class="title-font font-medium text-2xl mb-2 text-white">Experience the</h1>
+                        <h1 class="title-font font-medium text-2xl mb-2 text-green-500">Difference</h1>
+                    </div>
+                    <div class="leading-relaxed">What sets us apart is our attention to detail and commitment to your
+                        comfort and productivity. Whether you're here to access free Wi-Fi, enjoy the air-conditioned
+                        rooms, or stay refreshed with clean RO water, our facilities are designed to provide the best
+                        possible experience and enhance your learning journey.</div>
+                </div>
+                <h1 class="title-font font-medium text-3xl ml-4 mt-10 text-green-500">Join us now !</h1>
+            </div>
+            <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+                <img class="object-cover object-center w-full h-full"
+                    src="https://www.verywellmind.com/thmb/FuxU5MF9jKoJG49isDB3BTCF2Ps=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/143071367-56a793605f9b58b7d0ebd6c8.jpg"
+                    alt="stats">
+            </div>
+        </div>
+    </section>
+    <footer class="text-gray-400 bg-gray-900 body-font">
+        <div class="bg-gray-800 bg-opacity-75">
+            <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="w-10 h-10 text-white p-2 bg-green-500 rounded-full">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M4 19V6.2C4 5.0799 4 4.51984 4.21799 4.09202C4.40973 3.71569 4.71569 3.40973 5.09202 3.21799C5.51984 3 6.0799 3 7.2 3H16.8C17.9201 3 18.4802 3 18.908 3.21799C19.2843 3.40973 19.5903 3.71569 19.782 4.09202C20 4.51984 20 5.0799 20 6.2V17H6C4.89543 17 4 17.8954 4 19ZM4 19C4 20.1046 4.89543 21 6 21H20M9 7H15M9 11H15M19 17V21"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            </path>
+                        </g>
+                    </svg>
+                    <span class="ml-3 text-xl">Self Study Hub</span>
+                </a>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                    <a class="text-gray-400">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-400">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path
+                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-400">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-400">
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path stroke="none"
+                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                            </path>
+                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
